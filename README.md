@@ -35,6 +35,37 @@ The three heroes are Nvidia bringing back Jensen Huang as CEO,
 the EU proposing its 22nd Russia sanctions package, and the US
 sanctioning Iran's shadow-banking network.
 
+## How the slate was verified
+
+Two independent research passes collected the day's news, then
+every story was checked against its first publication date on
+the source page itself — not the aggregator's date, which
+repeatedly proved wrong. The traps this caught, and what
+replaced them:
+
+- The Chapo Isidro capture was Friday 20 Nov, not Monday.
+  Monday's news is the US extradition order — that is the story
+  on the page. The capture itself is named in the DATE CHECK bar
+  as other days' news.
+- The Skubal–Mets $450m deal and the Democrats' 258 House seats
+  were both first reported Sunday 22 Nov, despite heavy Monday
+  coverage. Both were dropped.
+- The Dymer strike itself was Sunday 22 Nov (it led yesterday's
+  paper). Monday's news is the rescue ending and the toll rising
+  to 11 — with a seven-year-old boy pulled alive after 14 hours.
+  A "15 dead" figure circulating on Monday was the whole Kyiv
+  region, not Dymer, and was not used.
+- The FBI's NCIC database hack was first reported 20 Nov, not
+  23 Nov. It was dropped.
+- The Riemann Hypothesis proof claim and an Anthropic $900bn
+  spending figure could not be verified against a primary source
+  and were dropped outright rather than hedged.
+
+What survived is 48 stories whose first report is Monday
+23 November 2026, each attributed to the wire that carried it.
+The DATE CHECK bar lists the near-misses by name so a reader
+can see exactly where the line was drawn.
+
 ## Design
 
 The front page follows the pattern the top-ranked entries share:
@@ -59,6 +90,14 @@ the shadow-bank label struck through by the roofline, the
 Bayelsa caption buried under the banner) and all four were fixed
 before the final render, which shows all 48 stories, the DATE
 CHECK bar and the footer in full.
+
+The map is drawn from Natural Earth 110m land outlines, with
+13 numbered red dots placed on the true locations of the pictured
+stories; the two Brussels dots (the sanctions package and the
+national strike) are nudged apart so neither hides the other.
+Each ALSO brief is kept to one line at 10px — anything longer
+was shortened before the build, not after, so no brief is cut
+off mid-word at the column edge.
 
 ## Verify
 
